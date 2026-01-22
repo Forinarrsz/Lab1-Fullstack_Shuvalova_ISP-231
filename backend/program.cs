@@ -4,4 +4,7 @@ Console.WriteLine("Shuvalova Alina Egorovna");
 Console.WriteLine(DateTime.Now);
 
 System.Console.WriteLine("Enter your name: ");
-Console.ReadLine();
+string name = Console.ReadLine();
+System.Console.WriteLine($"Hello, {name}");
+System.Console.WriteLine("Day of week");
+System.Console.WriteLine(DateTime.Now.DayOfWeek);
